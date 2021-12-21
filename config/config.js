@@ -6,7 +6,7 @@ module.exports = {
   passport: {
     strategy: 'saml',
     saml: {
-      protocol: process.env.NO_SSL ? 'http' : 'https',
+      protocol: (process.env.NO_SSL ? 'http' : 'https').concat('://'),
       path: process.env.SAML_PATH || '/login/callback',
       entryPoint: process.env.SAML_ENTRY_POINT || 'https://openidp.feide.no/simplesaml/saml2/idp/SSOService.php',
       issuer: process.env.SAML_ISSUER || 'passport-saml',
