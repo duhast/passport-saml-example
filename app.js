@@ -8,8 +8,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const errorhandler = require('errorhandler');
 
-var env = process.env.NODE_ENV || 'development';
-const config = require('./config/config')[env];
+const config = require('./config/config');
 
 console.log('Using configuration', config);
 
