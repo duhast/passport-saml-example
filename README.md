@@ -5,6 +5,8 @@ PassportJS SAML example
 [![Code Climate](https://codeclimate.com/github/gbraad/passport-saml-example/badges/gpa.svg)](https://codeclimate.com/github/gbraad/passport-saml-example)
 
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Description
 -----------
 

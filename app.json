@@ -1,0 +1,7 @@
+{
+  "name": "PassportJS SAML example",
+  "description": "An example to demonstrate the use of the Passport-SAML Authentication provider for PassportJS.",
+  "repository": "https://github.com/duhast/passport-saml-example",
+  "logo": "https://camo.githubusercontent.com/5d4ed7b87f2ec65dc01773606c71a56ff50a05f9386642955622ac33da06a3bb/687474703a2f2f67726176617461722e636f6d2f6176617461722f65343636393934656561336332613136373235363465343561636138343464302e706e673f733d3630",
+  "keywords": ["node", "express", "passport", "saml"]
+}
